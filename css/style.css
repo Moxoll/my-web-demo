@@ -1,0 +1,111 @@
+@charset "UTF-8";
+	#wrting-mode-set{
+				
+				writing-mode:vertical-lr;
+				ms-writing-mode:vertical-lr;
+				o-writing-mode:vertical-lr;
+				webkit-writing-mode:vertical-lr;	
+			}
+     mt {
+            display: inline-block; /* 使每个字符独立为块级元素 */
+            word-break: break-all; /* 允许单词在任意字符处换行 */
+            white-space: normal; /* 保留空格和换行符 */
+            font-family: 'Mongolian Baiti', sans-serif; /* 使用蒙古文字体 */
+            font-size: 30px; /* 字体大小 */
+            writing-mode: vertical-lr;
+        }
+         mt1 {
+            display: inline-block; /* 使每个字符独立为块级元素 */
+            word-break: break-all; /* 允许单词在任意字符处换行 */
+            white-space: normal; /* 保留空格和换行符 */
+            font-family: 'Mongolian Baiti', sans-serif; /* 使用蒙古文字体 */
+            font-size: 30px; /* 字体大小 */
+            writing-mode: vertical-lr;
+            color:#A9A9A9;
+        }
+        
+          .divider {
+            height: 2px; /* 白条高度 */
+            background-color: white; /* 白条颜色 */
+            width: 100%; /* 宽度 100% */
+        }
+         
+        .header {
+        	
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #004d4e;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+        
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;       
+            }
+           .section h1{
+            display: inline-block; /* 使每个字符独立为块级元素 */
+            word-break: break-all; /* 允许单词在任意字符处换行 */
+            white-space: normal; /* 保留空格和换行符 */
+            font-family: 'Mongolian Baiti', sans-serif; /* 使用蒙古文字体 */
+            font-size: 24px; /* 字体大小 */
+        	writing-mode: vertical-lr;
+            font-weight: bold;
+            color:#000000;
+         
+            }
+        .logo {
+         display: inline-block; /* 使每个字符独立为块级元素 */
+            word-break: break-all; /* 允许单词在任意字符处换行 */
+            white-space: normal; /* 保留空格和换行符 */
+            font-family: 'Mongolian Baiti', sans-serif; /* 使用蒙古文字体 */
+            font-size: 24px; /* 字体大小 */
+        	writing-mode: vertical-lr;
+            font-weight: bold;
+            color:#f8f8f8;	
+        }
+        .nav { 
+        writing-mode: vertical-lr;
+            font-size: 24px;
+            font-weight: bold;
+            color:#f8f8f8;	
+        }
+        .nav a {
+        font-family: 'Mongolian Baiti', sans-serif; /* 使用蒙古文字体 */
+            text-decoration: none;
+            color:#f8f8f8;	
+        }
+        
+         .container {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            background: url(images/bg.jpg);
+        }
+        .bottom {
+            flex: 2; /* 设置底部区域占据较多空间 */
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 10px;
+            margin: 10px;
+        }
+        .bottom .box {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        img {
+            width: 200px; /* 图片宽度响应式 */
+            height: 190px; /* 高度自动 */
+        }
+        .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px; /* 可根据需要调整间距 */
+    }
+       
+    
